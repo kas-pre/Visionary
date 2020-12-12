@@ -1,4 +1,4 @@
-const api = 'https://bankaapp-api.herokuapp.com/api';
+// const api = 'https://bankaapp-api.herokuapp.com/api';
 const type = document.querySelector('#type');
 const submit = document.querySelector('#submit');
 const loader = document.querySelector('#loader');

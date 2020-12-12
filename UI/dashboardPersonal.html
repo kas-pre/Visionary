@@ -27,22 +27,22 @@
               <a href="#" class="sidebar-link">Wallet-Personal</a>
             </li>
             <li class="sidebar-item user">
-              <a href="#" class="sidebar-link">Deposit into My Wallet</a>
+              <a href="./deposit2Wallet.html" class="sidebar-link">Deposit into My Wallet</a>
             </li>
             <li class="sidebar-item staff admin">
-              <a href="#" class="sidebar-link">Send Money</a>
+              <a href="./sendMoney.html" class="sidebar-link">Send Money</a>
             </li>
             <li class="sidebar-item staff admin">
-              <a href="#" class="sidebar-link">Buy Airtime & Bundles</a>
+              <a href="./buyAirtimeBundles.html" class="sidebar-link">Buy Airtime & Bundles</a>
             </li>
             <li class="sidebar-item user">
-              <a href="#" class="sidebar-link">Pay For Goods & Services</a>
+              <a href="./payGoodsServices.html" class="sidebar-link">Pay For Goods & Services</a>
             </li>
             <li class="sidebar-item staff admin">
-              <a href="#" class="sidebar-link">Pay Bills</a>
+              <a href="./payBill.html" class="sidebar-link">Pay Bills</a>
             </li>
             <li class="sidebar-item admin">
-              <a href="#" class="sidebar-link">Run a Fundraiser</a>
+              <a href="./runFundRaiser.html" class="sidebar-link">Run a Fundraiser</a>
             </li>
             <li class="sidebar-item staff admin">
               <a href="./dashboardAgent.html" class="sidebar-link">Switch to Agent-Banking</a>
@@ -121,56 +121,56 @@
         <div class="welcome-user">
           <!-- <img class="welcome-user-photo" src="./img/js2.png" alt=""> -->
           <div class="welcome-user-details">
-            <p class="welcome-username">Welcome back, <span id="firstname"></span></p>
-            <p class="last-login">your last login was <span id="lastLogin"></span></p>
+            <p class="welcome-username">Welcome back <span id="firstname"></span></p>
+            <!-- <p class="last-login">your last login was <script>document.querySelector('p').innerHTML.Date.now()</script> <span id="lastLogin"></span></p> -->
           </div>
           <div class="welcome-user-balance">
-            <p class="total-balance">Total Balance</p>
+            <p class="total-balance">Total Balance 150000/-</p>
             <p class="total-balance-amount"></p>
           </div>
         </div>
 
         <!--Main Body-->
         <main class="main-body">
-          <div class="alert alert-danger"><span class="errMsg">Error </span><span id="close">X</span></div>
+          <!-- <div class="alert alert-danger"><span class="errMsg">Error </span><span id="close">X</span></div> -->
           <!--Accounts Dropdown-->
-          <div class="accounts">
+          <!-- <div class="accounts">
             <div class="card">
               <form action="" class="accounts-form">
                 <div class="form-group">
-                  <select class="accounts-select" id="accounts">
+                  <select class="accounts-select" id="accounts"> -->
                     <!--dynamically create option-->
-                  </select>
+                  <!-- </select>
                 </div>
 
                 <input type="submit" id="submit" class="btn-go" value="Go">
               </form>
             </div>
-          </div>
+          </div> -->
           <div class="dashboard-wrapper">
             <div class="user-details">
               <div class="card">
                 <h2 class="user-details-title">Wallet Details</h2>
                 <div class="div">
-                  <h4 class="user-details-name">Wallet Id: </h4>
+                  <h4 class="user-details-name">Wallet Id: Kasasira Precious </h4>
                   <span id="username"></span>
                 </div>
                 <div class="div">
-                  <h4 class="user-details-number">Telephone Number: </h4>
+                  <h4 class="user-details-number">Telephone Number: 0770427485 </h4>
                   <span id="account-number"></span>
                 </div>
                 <div class="div">
-                  <h4 class="user-details-balance">Wallet Balance: </h4>
+                  <h4 class="user-details-balance">Wallet Balance: 150000/-</h4>
                   <span id="account-balance"></span>
                 </div>
                 <div class="div">
-                  <h4 class="type">Type: </h4>
+                  <h4 class="type">Type: Personal-Banking </h4>
                   <span id="type"></span>
                 </div>
-                <div class="div">
-                  <h4 class="account-status">Wallet Status: </h4>
+                <!-- <div class="div">
+                  <h4 class="account-status">Wallet Status: Active </h4>
                   <span id="account-status"></span>
-                </div>
+                </div> -->
                 <!-- <div class="div">
                   <h4 class="user-details-created">Account Created: </h4>
                   <span id="account-created"></span>
@@ -178,22 +178,22 @@
               </div>
             </div>
 
-            <!-- <div class="manager">
+            <div class="manager">
               <div class="card">
-                <h2 class="user-details-title">Account Manager</h2>
+                <h2 class="user-details-title">Wallet Summary</h2>
                 <div class="div">
-                  <h4 class="user-details-name">Name: </h4>
-                  <span id="manager">Cavdy</span>
+                  <h4 class="user-details-name">Transactions Done: </h4>
+                  <span id="manager"></span>
                 </div>
-                <div class="div">
-                  <h4 class="user-details-number">Mobile Number: </h4>
-                  <span id="manager-number">09012345678</span>
-                </div>
-                <div class="div">
-                  <h4 class="user-details-email">email: </h4>
-                  <span id="manager-email">banka@banka.com</span>
-                </div>
-              </div> -->
+                <!-- <div class="div">
+                  <h4 class="user-details-number">Commission Earned: </h4>
+                  <span id="manager-number"></span>
+                </div> -->
+                <!-- <div class="div">
+                  <h4 class="user-details-email">Balance: </h4>
+                  <span id="manager-email"></span>
+                </div> -->
+              </div>
             </div>
           </div>
         </main>

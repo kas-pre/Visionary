@@ -22,8 +22,8 @@
         </div>
         <div class="sidebar-menu">
           <ul class="sidebar-list">
-            <li class="sidebar-item user sidebar-item-active">
-              <a href="#" class="sidebar-link">Wallet-Agent</a>
+            <li class="sidebar-item user ">
+              <a href="./dashboardAgent.html" class="sidebar-link">Wallet-Agent</a>
             </li>
             <li class="sidebar-item user">
               <a href="./depositCustomerId.html" class="sidebar-link">Deposit</a>
@@ -34,7 +34,7 @@
             <li class="sidebar-item staff admin">
               <a href="./sellAirtimeBundles.html" class="sidebar-link">Sell Airtime & Bundles</a>
             </li>
-            <li class="sidebar-item user">
+            <li class="sidebar-item user sidebar-item-active">
               <a href="./payBillCustomer.html" class="sidebar-link">Pay Bills</a>
             </li>
             <li class="sidebar-item staff admin">
@@ -124,7 +124,7 @@
             <!-- <p class="last-login">your last login was <span id="lastLogin"></span></p> -->
           </div>
           <div class="welcome-user-balance">
-            <p class="total-balance">Total Balance 500000/-</p>
+            <p class="total-balance">Total Balance 300000/-</p>
             <p class="total-balance-amount"></p>
           </div>
         </div>
@@ -147,52 +147,60 @@
             </div>
           </div> -->
           <div class="dashboard-wrapper">
-            <div class="user-details">
-              <div class="card">
-                <h2 class="user-details-title">Wallet Details</h2>
-                <div class="div">
-                  <h4 class="user-details-name">Wallet Id: Kasasira Precious </h4>
-                  <span id="username"></span>
-                </div>
-                <div class="div">
-                  <h4 class="user-details-number">Telephone Number: 0770427485 </h4>
-                  <span id="account-number"></span>
-                </div>
-                <div class="div">
-                  <h4 class="user-details-balance">Wallet Balance: 150000/-</h4>
-                  <span id="account-balance"></span>
-                </div>
-                <div class="div">
-                  <h4 class="type">Type: Agent-Banking </h4>
-                  <span id="type"></span>
-                </div>
-                <!-- <div class="div">
-                  <h4 class="account-status">Wallet Status: Active </h4>
-                  <span id="account-status"></span>
-                </div> -->
-                <!-- <div class="div">
-                  <h4 class="user-details-created">Account Created: </h4>
-                  <span id="account-created"></span>
-                </div> -->
+            <div class="showcase-body-right">
+                <p class="msg"></p>
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label for="selectrole" class="form-label">Pay In</label>
+                        <select class="form-select" id="type">
+                          <option value="current">UGX</option>
+                          <option value="savings">USD</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="selectrole" class="form-label">What Would You Like to Pay For</label>
+                        <select class="form-select" id="type">
+                          <option value="current">Utilities</option>
+                          <option value="savings">Pay TV</option>
+                          <option value="current">School Fees</option>
+                          <option value="savings">Fees & Taxes</option>
+                          <option value="current">Travel</option>
+                          <option value="savings">Other</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="email" class="form-label">Enter Customer Details</label>
+                        <input type="text" placeholder="Customer ID" id="email" class="form-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="email" class="form-label">Enter Bill Details</label>
+                        <input type="text" placeholder="Bill Details" id="email" class="form-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="email" class="form-label">Enter Amount to Pay</label>
+                        <input type="text" placeholder="Amount to Pay" id="email" class="form-input">
+                      </div>
+                    <input type="submit" id="submit" class="btn btn-block btn-primary" value="Proceed to Pay Bill">
+                </form>
               </div>
             </div>
 
-            <div class="manager">
+            <!-- <div class="manager">
               <div class="card">
-                <h2 class="user-details-title">Wallet Summary</h2>
+                <h2 class="user-details-title">Account Manager</h2>
                 <div class="div">
-                  <h4 class="user-details-name">Transactions Done: </h4>
-                  <span id="manager"></span>
+                  <h4 class="user-details-name">Name: </h4>
+                  <span id="manager">Cavdy</span>
                 </div>
                 <div class="div">
-                  <h4 class="user-details-number">Commission Earned: </h4>
-                  <span id="manager-number"></span>
+                  <h4 class="user-details-number">Mobile Number: </h4>
+                  <span id="manager-number">09012345678</span>
                 </div>
-                <!-- <div class="div">
-                  <h4 class="user-details-email">Balance: </h4>
-                  <span id="manager-email"></span>
-                </div> -->
-              </div>
+                <div class="div">
+                  <h4 class="user-details-email">email: </h4>
+                  <span id="manager-email">banka@banka.com</span>
+                </div>
+              </div> -->
             </div>
           </div>
         </main>

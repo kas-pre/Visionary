@@ -1,4 +1,4 @@
-const api = 'https://bankaapp-api.herokuapp.com/api/v1';
+// const api = 'https://bankaapp-api.herokuapp.com/api/v1';
 
 const fnameAndLnameRegex = /^[a-zA-Z ]{2,15}$/;
 const emailRegex = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,10})$/;
